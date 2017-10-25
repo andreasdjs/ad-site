@@ -1,0 +1,14 @@
+.firstpage-hero {
+  height: 430px;
+  // background-color: silver;
+  background-color: $light-grey;
+
+  h1 {
+    color: $black;
+  }
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
