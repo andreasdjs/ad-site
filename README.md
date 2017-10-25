@@ -1,10 +1,10 @@
-### SMALL SITE
+##### SMALL SITE
 
 This is a web site developed using Create React App. The purpose is to try out new things while doing a pretty clean and aesthetic.
 
-– Create React App + SASS post processor
-– Flat design with CSS Grid
-– 360 image
+- Create React App + SASS post processor
+- Flat design with CSS Grid
+- 360 image
 
 ----------------------------------------
 
