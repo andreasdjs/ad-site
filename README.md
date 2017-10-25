@@ -1,4 +1,4 @@
-##### SMALL SITE
+### SMALL SITE
 
 This is a web site developed using Create React App. The purpose is to try out new things while doing a pretty clean and aesthetic.
 
