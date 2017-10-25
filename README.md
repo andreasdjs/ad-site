@@ -1,6 +1,8 @@
 ### SMALL SITE
 
-This is a web site developed using Create React App. The purpose is to try out new things while doing a pretty clean and aesthetic.
+This is a web site developed using Create React App.
+
+The purpose of this site is both trying out new stuff and building a new personal site with a clean and aesthetic design.
 
 - Create React App + SASS post processor
 - Flat design with CSS Grid
