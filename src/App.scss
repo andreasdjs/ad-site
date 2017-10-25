@@ -1,22 +1,28 @@
+
+@import 'styles/settings/all';
+@import 'styles/reset/all';
+@import 'styles/layouts/all';
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 200px;
 }
 
 .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
+  margin: 0px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
-  color: pink;
+  font-size: 5em;
+  color: $black;
 }
 
 .App-intro {
