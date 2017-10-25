@@ -1,3 +1,15 @@
+### SMALL SITE
+
+This is a web site developed using Create React App.
+
+The purpose of this site is both trying out new stuff and building a new personal site with a clean and aesthetic design.
+
+- Create React App + SASS post processor
+- Flat design with CSS Grid
+- 360 image
+
+----------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
