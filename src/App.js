@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HeroBox from './components/HeroBox';
 // import logo from './logo.svg';
 // import thelogo from './images/thelogo.png';
 // import anotherlogo from './images/lorem.svg';
@@ -10,10 +11,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="firstpage-hero">
+        <HeroBox />
+        {/* <div className="firstpage-hero">
           <div><h1 className="App-title tk-museo-sans">MUSEO SANS title text ABCDEFGH abcdefgh</h1></div>
-          {/* <div><h3 className="tk-museo-sans">Subtitle Text</h3></div> */}
-        </div>
+        </div> */}
         <div><img src={background} className="background-image" alt="thebackground" /></div>
         {/* <header className="App-header">
           <img src={thelogo} className="App-logo" alt="thelogo" />
