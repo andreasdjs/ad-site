@@ -13,19 +13,37 @@
   align-content: center;
 
   @include breakpoint(mobile) {
-    h1 { font-size: 5.33em; }
-    h3 { font-size: 2.22em; }
-
+    h1 { font-size: 3.33em; }
+    h3 { font-size: 1.33em; }
+    height: 320px;
+  }
+  @include breakpoint(phablet) {
     h1 { font-size: 4em; }
     h3 { font-size: 1.66em; }
-  }
+    height: 360px;
+	}
   @include breakpoint(laptop) {
-    h1 { font-size: 5em; }
-    h3 { font-size: 2em; }
+    h1 { font-size: 5.5em; }
+    h3 { font-size: 2.2em; }
+    height: 480px;
   }
   @include breakpoint(desktop) {
     h1 { font-size: 8em; }
     h3 { font-size: 3.33em; }
+    height: 540px;
   }
 
+  // background-image: url(/ice2.jpg);
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  // color: black;
+
+  // &:hover {
+  //   background-image: url(/ice.jpg);
+  //   background-size: cover;
+  //   color: black;
+  //   transition: background-image 0.2s ease-in-out, color 0.2s ease-in-out;
+  // }
 }

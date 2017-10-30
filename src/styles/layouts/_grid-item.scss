@@ -14,4 +14,10 @@
   h5 {
     font-size: 1.66em;
   }
+
+  &:hover {
+    background-color: $primary-color;
+    color: $white;
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  }
 }

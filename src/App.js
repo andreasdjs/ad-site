@@ -5,8 +5,7 @@ import FooterBox from './components/FooterBox/FooterBox';
 // import logo from './logo.svg';
 // import thelogo from './images/thelogo.png';
 // import anotherlogo from './images/lorem.svg';
-
-import background from './images/bg.jpg';
+// import background from './images/bg.jpg';
 import './App.css';
 
 class App extends Component {
