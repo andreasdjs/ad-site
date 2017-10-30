@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import HeroBox from './components/HeroBox';
+import GridBox from './components/GridBox';
+import FooterBox from './components/FooterBox/FooterBox';
 // import logo from './logo.svg';
 // import thelogo from './images/thelogo.png';
 // import anotherlogo from './images/lorem.svg';
@@ -12,9 +14,8 @@ class App extends Component {
     return (
       <div className="App">
         <HeroBox />
-        {/* <div className="firstpage-hero">
-          <div><h1 className="App-title tk-museo-sans">MUSEO SANS title text ABCDEFGH abcdefgh</h1></div>
-        </div> */}
+        <GridBox />
+        <FooterBox />
         <div><img src={background} className="background-image" alt="thebackground" /></div>
         {/* <header className="App-header">
           <img src={thelogo} className="App-logo" alt="thelogo" />

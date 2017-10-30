@@ -1,0 +1,17 @@
+.grid-item {
+  background: $white;
+  min-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  h3 {
+    font-size: 3.33em;
+  }
+  h5 {
+    font-size: 1.66em;
+  }
+}
