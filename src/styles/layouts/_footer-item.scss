@@ -2,6 +2,10 @@
   display: inline-block;
   background: $white;
   width: 20%;
+  min-width: 100px;
   padding: 20px;
   margin-right: 20px;
+  &:last-child {
+    margin-right:0px;
+  }
 }

@@ -1,27 +1,6 @@
 
+@import 'styles/mixins/all';
 @import 'styles/settings/all';
 @import 'styles/reset/all';
+@import 'styles/base/all';
 @import 'styles/layouts/all';
-
-// .App {
-//   text-align: center;
-// }
-
-// .App-logo {
-//   animation: App-logo-spin infinite 20s linear;
-//   height: 200px;
-// }
-
-// .App-header {
-//   background-color: #222;
-//   height: 150px;
-//   padding: 0;
-//   margin: 0;
-//   color: white;
-// }
-
-// .App-title {
-//   font-size: 5em;
-//   color: $black;
-//   display: block;
-// }
