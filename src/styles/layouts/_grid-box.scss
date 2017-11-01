@@ -1,16 +1,19 @@
 .grid-box {
 	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
   grid-gap: 20px;
 
   background: $light-grey;
-  border: 40px solid $light-grey;
+  border: 20px solid $light-grey;
+
+  grid-template-columns: repeat(1, 1fr);
+  transition: grid-template-columns 0.4s ease-in-out;
 
   @include breakpoint(phablet) {
     grid-template-columns: repeat(2, 1fr);
+    transition: grid-template-columns 0.4s ease-in-out;
 	}
   @include breakpoint(laptop) {
     grid-template-columns: repeat(3, 1fr);
-	}
+    transition: grid-template-columns 0.4s ease-in-out;
+  }
 }

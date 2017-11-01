@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import HeroBox from './components/HeroBox';
-import GridBox from './components/GridBox';
+import GridBox from './components/GridBox/GridBox';
 import FooterBox from './components/FooterBox/FooterBox';
 // import logo from './logo.svg';
 // import thelogo from './images/thelogo.png';

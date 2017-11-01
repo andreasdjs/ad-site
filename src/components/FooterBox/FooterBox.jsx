@@ -1,16 +1,43 @@
 import React from 'react';
-import FooterItem from './FooterItem';
+import SocialMediaItem from './SocialMediaItem';
 
 class FooterBox extends React.Component {
   render() {
+    let socialMediaItems = [
+      {
+        socialMedia: 'github',
+        icon: '',
+        link: 'https://github.com/andreasdjs/',
+        title: 'GitHub',
+      },
+      {
+        socialMedia: 'linkedin',
+        icon: '',
+        link: 'https://www.linkedin.com/in/andreasdagnell/',
+        title: 'LinkedIn',
+      },
+      {
+        socialMedia: 'soundcloud',
+        icon: '',
+        link: 'https://soundcloud.com/sushi_brother',
+        title: 'Soundcloud',
+      },
+      {
+        socialMedia: 'facebook',
+        icon: '',
+        link: 'https://www.facebook.com/AndreasDagnellPhotography/',
+        title: 'Photography on Facebook',
+      },
+      {
+        socialMedia: 'facebook',
+        icon: '',
+        link: 'https://www.facebook.com/pg/Sushi-Brother-7794636793/',
+        title: 'Music on Facebook',
+      },
+    ];
     return (
       <div className="footer-box tk-museo-sans">
-        <FooterItem />
-        <FooterItem />
-        <FooterItem />
-        {/* <p>LINK SOCIAL MEDIA 1</p>
-        <p>LINK SOCIAL MEDIA 2</p>
-        <p>LINK SOCIAL MEDIA 3</p> */}
+        { socialMediaItems.map((item, index) => <SocialMediaItem key={index} title={item.title} link={item.link} icon={item.icon} />)}
       </div>
     );
   }

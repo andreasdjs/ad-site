@@ -1,10 +1,24 @@
 .firstpage-hero {
-  height: 540px;
   background-color: $light-grey;
   color: $black;
 
-  h1 { font-size: 4em; }
-  h3 { font-size: 1.66em; }
+  h1 {
+    margin-top: 40px;
+    font-size: 4em;
+    transition: font-size 0.4s ease-in-out;
+    text-align: center;
+    line-height: 1.1;
+  }
+  h3 {
+    margin-top: 5px;
+    font-size: 1.66em;
+    transition: font-size 0.4s ease-in-out;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  height: 260px;
+  transition: height 0.4s ease-in-out;
 
   display: flex;
   flex-direction: column;
@@ -12,25 +26,47 @@
   align-items: center;
   align-content: center;
 
-  @include breakpoint(mobile) {
-    h1 { font-size: 3.33em; }
-    h3 { font-size: 1.33em; }
-    height: 320px;
-  }
   @include breakpoint(phablet) {
-    h1 { font-size: 4em; }
-    h3 { font-size: 1.66em; }
-    height: 360px;
-	}
+    h1 {
+      margin-top: 0px;
+      font-size: 4em;
+      transition: font-size 0.4s ease-in-out;
+    }
+    h3 {
+      margin-top: 0px;
+      font-size: 1.66em;
+      transition: font-size 0.4s ease-in-out;
+    }
+    height: 340px;
+    transition: height 0.4s ease-in-out;
+  }
   @include breakpoint(laptop) {
-    h1 { font-size: 5.5em; }
-    h3 { font-size: 2.2em; }
-    height: 480px;
+    h1 {
+      margin-top: 0px;
+      font-size: 5.5em;
+      transition: font-size 0.4s ease-in-out;
+    }
+    h3 {
+      margin-top: 0px;
+      font-size: 2.2em;
+      transition: font-size 0.4s ease-in-out;
+    }
+    height: 380px;
+    transition: height 0.4s ease-in-out;
   }
   @include breakpoint(desktop) {
-    h1 { font-size: 8em; }
-    h3 { font-size: 3.33em; }
-    height: 540px;
+    h1 {
+      margin-top: 40px;
+      font-size: 8em;
+      transition: font-size 0.4s ease-in-out;
+    }
+    h3 {
+      margin-top: 0px;
+      font-size: 3.33em;
+      transition: font-size 0.4s ease-in-out;
+    }
+    height: 520px;
+    transition: height 0.4s ease-in-out;
   }
 
   // background-image: url(/ice2.jpg);
